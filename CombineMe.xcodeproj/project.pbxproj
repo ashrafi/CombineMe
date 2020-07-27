@@ -15,6 +15,7 @@
 		E8E7A73D24C3E4DF00FE7396 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E7A71224C3E4DE00FE7396 /* ContentView.swift */; };
 		E8E7A73E24C3E4DF00FE7396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8E7A71324C3E4DF00FE7396 /* Assets.xcassets */; };
 		E8E7A73F24C3E4DF00FE7396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8E7A71324C3E4DF00FE7396 /* Assets.xcassets */; };
+		E8E9D73A24CE7CAB00155C87 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8E9D73924CE7CAB00155C87 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		E8E7A73324C3E4DF00FE7396 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8E7A73724C3E4DF00FE7396 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		E8E7A73924C3E4DF00FE7396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8E9D73924CE7CAB00155C87 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		E8E9D73B24CE7E1100155C87 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 		E8E7A70B24C3E4DE00FE7396 = {
 			isa = PBXGroup;
 			children = (
+				E8E9D73B24CE7E1100155C87 /* README.md */,
+				E8E9D73924CE7CAB00155C87 /* .gitignore */,
 				E8E7A71024C3E4DE00FE7396 /* Shared */,
 				E8E7A71A24C3E4DF00FE7396 /* iOS */,
 				E8E7A72124C3E4DF00FE7396 /* macOS */,
@@ -275,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8E9D73A24CE7CAB00155C87 /* .gitignore in Resources */,
 				E8E7A73E24C3E4DF00FE7396 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -17,7 +17,7 @@ Methods, Functions, Closures
 Package Manager
 MVVM Architecture 
 
-10 - 12 - SwiftUI 2 (Full Tutorial)
+10 - 12 - SwiftUI 2 (Full Tutorial)  
 Text and images
 View layout -  Stacks
 Responding to events - Sliders / Toggle / Picker / Stepper
@@ -38,19 +38,21 @@ Views and Controls
 Navigation
 XCode Design Tools / Preview.
 
-12 - 1 -- lunch / Questions -- 
+12 - 1 -- lunch / Questions --   
 
-1 - 2 Combine tutorial
+1 - 2 Combine tutorial    
 Codable / JSON
 Publisher 
 Subject
 Operators
 Subscriber
 SwiftUI Property Wrappers
-2 - 3 Combine / SwiftUI -  Project Setup
+
+2 - 3 Combine / SwiftUI -  Project Setup    
 URL Session using Combine.
 < UI Bike Sharing Project >  - 
-3 - 4 Combine / SwiftUI -  Project Development 
+3 - 4 Combine / SwiftUI -  Project Development   
 < Data Bike Sharing Project >   -
+  
 4 - 5 Testing -- Wrap Up -- Questions - Review the day. 
 

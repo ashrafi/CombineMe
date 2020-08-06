@@ -60,3 +60,16 @@ Combine / SwiftUI Code Project
 - testing
 - Questions
 - Review the day.
+
+-- 
+## Resources
+
+--
+
+### Playgrounds
+(Combine Magic) [https://github.com/kevinjohnason/combine-magic-swiftui]
+
+* https://github.com/attoPascal/SwiftUI-Tutorial-Playground
+
+* https://github.com/CypherPoet/book--swiftui-by-tutorials
+

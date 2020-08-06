@@ -1,5 +1,0 @@
-Github bike API
-https://github.com/collisionspace/Bike-Share-SwiftUI.git
-
-Example
-URL Session using Combine.

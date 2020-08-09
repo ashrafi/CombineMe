@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54044E6924E0C33E006647FF /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54044E6824E0C33E006647FF /* FormView.swift */; };
 		5429EA1424DCEFB800B7AE59 /* BikeInfoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5429EA1324DCEFB800B7AE59 /* BikeInfoAPI.swift */; };
 		544604F724D60A0600B8BB19 /* SharedBikeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544604F524D60A0600B8BB19 /* SharedBikeViewModel.swift */; };
 		5446050C24D6121500B8BB19 /* SystemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5446050B24D6121500B8BB19 /* SystemInfo.swift */; };
@@ -59,6 +60,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		54044E6824E0C33E006647FF /* FormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 		5429EA1324DCEFB800B7AE59 /* BikeInfoAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BikeInfoAPI.swift; sourceTree = "<group>"; };
 		544604F524D60A0600B8BB19 /* SharedBikeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedBikeViewModel.swift; sourceTree = "<group>"; };
 		5446050B24D6121500B8BB19 /* SystemInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemInfo.swift; sourceTree = "<group>"; };
@@ -124,6 +126,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54044E6724E0C318006647FF /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				54044E6824E0C33E006647FF /* FormView.swift */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
 		544604E424D6096800B8BB19 /* BikeShareAPI */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +186,7 @@
 		54AABF2D24DE265B00935CD8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				54044E6724E0C318006647FF /* Input */,
 				54AABF3324DE414B00935CD8 /* BikeInfoViews */,
 				54AABF2E24DE267000935CD8 /* HomeView.swift */,
 			);
@@ -438,6 +449,7 @@
 				5446053124D6376400B8BB19 /* RentalMethod.swift in Sources */,
 				5446052D24D6376400B8BB19 /* RentalUris.swift in Sources */,
 				5446050C24D6121500B8BB19 /* SystemInfo.swift in Sources */,
+				54044E6924E0C33E006647FF /* FormView.swift in Sources */,
 				5446053924D6376400B8BB19 /* StationType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,6 +12,7 @@ struct HomeView: View {
         VStack{
             Text("Lets Get Some Bikes !!!")
             BikeMenu()
+            FormView()
         }
     }
 }

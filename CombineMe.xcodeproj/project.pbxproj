@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5429EA1424DCEFB800B7AE59 /* BikeInfoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5429EA1324DCEFB800B7AE59 /* BikeInfoAPI.swift */; };
 		544604F724D60A0600B8BB19 /* SharedBikeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544604F524D60A0600B8BB19 /* SharedBikeViewModel.swift */; };
 		5446050C24D6121500B8BB19 /* SystemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5446050B24D6121500B8BB19 /* SystemInfo.swift */; };
 		5446050E24D612A000B8BB19 /* SysInfoDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5446050D24D612A000B8BB19 /* SysInfoDataClass.swift */; };
@@ -24,6 +25,11 @@
 		5446053824D6376400B8BB19 /* JSONSchemaSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5446052B24D6376300B8BB19 /* JSONSchemaSupport.swift */; };
 		5446053924D6376400B8BB19 /* StationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5446052C24D6376400B8BB19 /* StationType.swift */; };
 		5446053A24D6376400B8BB19 /* StationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5446052C24D6376400B8BB19 /* StationType.swift */; };
+		54AABF2F24DE267000935CD8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AABF2E24DE267000935CD8 /* HomeView.swift */; };
+		54AABF3124DE26A400935CD8 /* BikeStationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AABF3024DE26A400935CD8 /* BikeStationView.swift */; };
+		54AABF3224DE26A400935CD8 /* BikeStationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AABF3024DE26A400935CD8 /* BikeStationView.swift */; };
+		54AABF3824DF8A5C00935CD8 /* BikeMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AABF3724DF8A5C00935CD8 /* BikeMapView.swift */; };
+		54AABF3924DF8A5C00935CD8 /* BikeMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AABF3724DF8A5C00935CD8 /* BikeMapView.swift */; };
 		E8E7A72D24C3E4DF00FE7396 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E7A72C24C3E4DF00FE7396 /* Tests_iOS.swift */; };
 		E8E7A73824C3E4DF00FE7396 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E7A73724C3E4DF00FE7396 /* Tests_macOS.swift */; };
 		E8E7A73A24C3E4DF00FE7396 /* CombineMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E7A71124C3E4DE00FE7396 /* CombineMeApp.swift */; };
@@ -53,6 +59,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5429EA1324DCEFB800B7AE59 /* BikeInfoAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BikeInfoAPI.swift; sourceTree = "<group>"; };
 		544604F524D60A0600B8BB19 /* SharedBikeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedBikeViewModel.swift; sourceTree = "<group>"; };
 		5446050B24D6121500B8BB19 /* SystemInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemInfo.swift; sourceTree = "<group>"; };
 		5446050D24D612A000B8BB19 /* SysInfoDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SysInfoDataClass.swift; sourceTree = "<group>"; };
@@ -63,6 +70,10 @@
 		5446052A24D6376300B8BB19 /* StationInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationInfo.swift; sourceTree = "<group>"; };
 		5446052B24D6376300B8BB19 /* JSONSchemaSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONSchemaSupport.swift; sourceTree = "<group>"; };
 		5446052C24D6376400B8BB19 /* StationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationType.swift; sourceTree = "<group>"; };
+		5446054C24DCB5FE00B8BB19 /* Combine Examples.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Combine Examples.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		54AABF2E24DE267000935CD8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		54AABF3024DE26A400935CD8 /* BikeStationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationView.swift; sourceTree = "<group>"; };
+		54AABF3724DF8A5C00935CD8 /* BikeMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeMapView.swift; sourceTree = "<group>"; };
 		E8E7A71124C3E4DE00FE7396 /* CombineMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineMeApp.swift; sourceTree = "<group>"; };
 		E8E7A71224C3E4DE00FE7396 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E8E7A71324C3E4DF00FE7396 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -116,6 +127,7 @@
 		544604E424D6096800B8BB19 /* BikeShareAPI */ = {
 			isa = PBXGroup;
 			children = (
+				5429EA1324DCEFB800B7AE59 /* BikeInfoAPI.swift */,
 				5446051124D614A700B8BB19 /* StationInfo */,
 				5446050824D611C700B8BB19 /* SysInfo */,
 			);
@@ -153,6 +165,32 @@
 			path = StationInfo;
 			sourceTree = "<group>";
 		};
+		5446054824DCB37500B8BB19 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				5446054C24DCB5FE00B8BB19 /* Combine Examples.playground */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		54AABF2D24DE265B00935CD8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				54AABF3324DE414B00935CD8 /* BikeInfoViews */,
+				54AABF2E24DE267000935CD8 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		54AABF3324DE414B00935CD8 /* BikeInfoViews */ = {
+			isa = PBXGroup;
+			children = (
+				54AABF3024DE26A400935CD8 /* BikeStationView.swift */,
+				54AABF3724DF8A5C00935CD8 /* BikeMapView.swift */,
+			);
+			path = BikeInfoViews;
+			sourceTree = "<group>";
+		};
 		E8E7A70B24C3E4DE00FE7396 = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +201,7 @@
 				E8E7A72124C3E4DF00FE7396 /* macOS */,
 				E8E7A72B24C3E4DF00FE7396 /* Tests iOS */,
 				E8E7A73624C3E4DF00FE7396 /* Tests macOS */,
+				5446054824DCB37500B8BB19 /* Examples */,
 				E8E7A71924C3E4DF00FE7396 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -170,6 +209,7 @@
 		E8E7A71024C3E4DE00FE7396 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				54AABF2D24DE265B00935CD8 /* Views */,
 				544604F424D60A0600B8BB19 /* Model */,
 				544604E424D6096800B8BB19 /* BikeShareAPI */,
 				E8E7A71124C3E4DE00FE7396 /* CombineMeApp.swift */,
@@ -383,7 +423,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54AABF3124DE26A400935CD8 /* BikeStationView.swift in Sources */,
 				5446050E24D612A000B8BB19 /* SysInfoDataClass.swift in Sources */,
+				54AABF3824DF8A5C00935CD8 /* BikeMapView.swift in Sources */,
 				E8E7A73C24C3E4DF00FE7396 /* ContentView.swift in Sources */,
 				E8E7A73A24C3E4DF00FE7396 /* CombineMeApp.swift in Sources */,
 				544604F724D60A0600B8BB19 /* SharedBikeViewModel.swift in Sources */,
@@ -391,6 +433,8 @@
 				5446052F24D6376400B8BB19 /* DataClass.swift in Sources */,
 				5446053724D6376400B8BB19 /* JSONSchemaSupport.swift in Sources */,
 				5446053524D6376400B8BB19 /* StationInfo.swift in Sources */,
+				54AABF2F24DE267000935CD8 /* HomeView.swift in Sources */,
+				5429EA1424DCEFB800B7AE59 /* BikeInfoAPI.swift in Sources */,
 				5446053124D6376400B8BB19 /* RentalMethod.swift in Sources */,
 				5446052D24D6376400B8BB19 /* RentalUris.swift in Sources */,
 				5446050C24D6121500B8BB19 /* SystemInfo.swift in Sources */,
@@ -407,6 +451,8 @@
 				5446053824D6376400B8BB19 /* JSONSchemaSupport.swift in Sources */,
 				5446052E24D6376400B8BB19 /* RentalUris.swift in Sources */,
 				5446053A24D6376400B8BB19 /* StationType.swift in Sources */,
+				54AABF3224DE26A400935CD8 /* BikeStationView.swift in Sources */,
+				54AABF3924DF8A5C00935CD8 /* BikeMapView.swift in Sources */,
 				5446053624D6376400B8BB19 /* StationInfo.swift in Sources */,
 				5446053024D6376400B8BB19 /* DataClass.swift in Sources */,
 				5446053424D6376400B8BB19 /* Station.swift in Sources */,

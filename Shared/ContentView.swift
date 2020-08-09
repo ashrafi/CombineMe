@@ -8,22 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
-    
-    @ObservedObject var viewModel = SharedBikeViewModel()
-    //var viewModel = SharedBikeViewModel().stations
-    
-    
+        
     var body: some View {
-        List(viewModel.stations) { station in // 2
-            HStack {
-                VStack(alignment: .leading) {
-                    Text(station.name) // 3a
-                        .font(.headline)
-                    Text("Capacity \(station.capacity)") // 3b
-                        .font(.subheadline)
-                }
-            }
-        }
+        NavigationView {
+                   VStack {
+                       NavigationLink(destination: HomeView()) {
+                           Text("Home")
+                       }.navigationBarTitle("Bike Home")
+                   }
+               }
     }
 }
 

@@ -64,12 +64,51 @@ Combine / SwiftUI Code Project
 -- 
 ## Resources
 
+API generator
+https://app.quicktype.io
+
+
 --
 
 ### Playgrounds
+-- Review These All --
+
+##### SwiftUI
+* https://github.com/vlondon/awesome-swiftui
+* https://github.com/WillieWangWei/SwiftUI-Tutorials
+* https://github.com/peterfriese/SwiftUI-Combine
+* https://github.com/AvdLee/CombineSwiftPlayground
+* https://github.com/sergdort/CombineFeedback
+
+* https://github.com/AlexeyVoronov96/NewsApp-With-SwiftUI-And-Combine
+* https://github.com/heckj/swiftui-notes
+
 (Combine Magic) [https://github.com/kevinjohnason/combine-magic-swiftui]
 
 * https://github.com/attoPascal/SwiftUI-Tutorial-Playground
 
 * https://github.com/CypherPoet/book--swiftui-by-tutorials
+
+~~~
+Combine Tutorial
+- (Apple)[https://developer.apple.com/documentation/combine] 
+* https://www.donnywals.com/an-introduction-to-combine/ - done
+* https://www.raywenderlich.com/7864801-combine-getting-started
+* https://theswiftdev.com/the-ultimate-combine-framework-tutorial-in-swift/
+* https://www.swiftbysundell.com/basics/combine/
+* https://www.avanderlee.com/swift/combine/
+* https://www.vadimbulavin.com/swift-combine-framework-tutorial-getting-started/
+
+SwiftUI
+* https://swiftuihub.com/swiftui-tutorials/combine/
+* https://www.andrewcbancroft.com/blog/ios-development/ui-work/swiftui-essentials-playgrounds/
+
+
+
+MVVM Arch
+
+* https://github.com/kitasuke/SwiftUI-MVVM
+https://quickbirdstudios.com/blog/swiftui-architecture-redux-mvvm/
+https://github.com/quickbirdstudios/SwiftUI-Architectures/blob/master/README/MVVM.jpeg
+~~~
 

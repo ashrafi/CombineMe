@@ -16,6 +16,11 @@ We will work in pure SwiftUI (No UIKit)
 Schedule
 --
 #### Start (9am) - End (5pm)
+
+We start with a presentation covering Why SwiftUI? / Combine Framework.
+[Slides:](https://docs.google.com/presentation/d/1dKb4akc9U4xW9_L57Gx21qNbH33SVJjdvmSaFXkCCeI/edit?usp=sharing)
+
+
 #### 9am - 10am - Swift 5.1 / 5.2 (Review)
 * Basic language constructs
 * Methods, Functions, Closures

@@ -22,6 +22,7 @@ We start with a presentation covering Why SwiftUI? / Combine Framework.
 
 
 #### 9am - 10am - Swift 5.1 / 5.2 (Review)
+[Part 1 Slides:](https://docs.google.com/presentation/d/1dKb4akc9U4xW9_L57Gx21qNbH33SVJjdvmSaFXkCCeI/edit?usp=sharing)
 * Basic language constructs
 * Methods, Functions, Closures
 * Property Wrappers
@@ -29,6 +30,7 @@ We start with a presentation covering Why SwiftUI? / Combine Framework.
 * MVVM Architecture
 
 #### 10am - 12pm - SwiftUI 2 (Tutorial)
+[Orig Crdit - SwiftUI Playground Tutorial](https://github.com/andrewcbancroft/swiftui-essentials-playgrounds)
 - Views & Layouts
 - List, Forms and Containers
 - Modifiers
@@ -44,6 +46,8 @@ We start with a presentation covering Why SwiftUI? / Combine Framework.
 --Lunch / Questions--
 
 #### 1pm - 2pm Combine Famework (Tutorial)
+[Part 2 Slides:](https://docs.google.com/presentation/d/1dKb4akc9U4xW9_L57Gx21qNbH33SVJjdvmSaFXkCCeI/edit?usp=sharing)
+[Orig Credit Combine Playground ](https://github.com/AvdLee/CombineSwiftPlayground)
 - Publisher
 - Subject
 - Operators
@@ -105,8 +109,8 @@ Combine Tutorial
 * https://www.vadimbulavin.com/swift-combine-framework-tutorial-getting-started/
 
 SwiftUI
-* https://swiftuihub.com/swiftui-tutorials/combine/
-* https://www.andrewcbancroft.com/blog/ios-development/ui-work/swiftui-essentials-playgrounds/
+* https://swiftuihub.com/swiftui-tutorials/combine/ 
+* https://www.andrewcbancroft.com/blog/ios-development/ui-work/swiftui-essentials-playgrounds/ 
 
 
 

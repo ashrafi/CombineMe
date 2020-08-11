@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		54044E6924E0C33E006647FF /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54044E6824E0C33E006647FF /* FormView.swift */; };
+		54044E6B24E0C56C006647FF /* GikeGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54044E6A24E0C56C006647FF /* GikeGridView.swift */; };
 		5429EA1424DCEFB800B7AE59 /* BikeInfoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5429EA1324DCEFB800B7AE59 /* BikeInfoAPI.swift */; };
 		544604F724D60A0600B8BB19 /* SharedBikeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544604F524D60A0600B8BB19 /* SharedBikeViewModel.swift */; };
 		5446050C24D6121500B8BB19 /* SystemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5446050B24D6121500B8BB19 /* SystemInfo.swift */; };
@@ -61,6 +62,10 @@
 
 /* Begin PBXFileReference section */
 		54044E6824E0C33E006647FF /* FormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		54044E6A24E0C56C006647FF /* GikeGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GikeGridView.swift; sourceTree = "<group>"; };
+		54044E6F24E2F9F9006647FF /* LearnSwiftUI.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LearnSwiftUI.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		54044E7024E2FAEF006647FF /* SwiftUI.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftUI.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5424228824E30F4E00EF420E /* Combine.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Combine.playground; sourceTree = "<group>"; };
 		5429EA1324DCEFB800B7AE59 /* BikeInfoAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BikeInfoAPI.swift; sourceTree = "<group>"; };
 		544604F524D60A0600B8BB19 /* SharedBikeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedBikeViewModel.swift; sourceTree = "<group>"; };
 		5446050B24D6121500B8BB19 /* SystemInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemInfo.swift; sourceTree = "<group>"; };
@@ -72,7 +77,6 @@
 		5446052A24D6376300B8BB19 /* StationInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationInfo.swift; sourceTree = "<group>"; };
 		5446052B24D6376300B8BB19 /* JSONSchemaSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONSchemaSupport.swift; sourceTree = "<group>"; };
 		5446052C24D6376400B8BB19 /* StationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationType.swift; sourceTree = "<group>"; };
-		5446054C24DCB5FE00B8BB19 /* Combine Examples.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Combine Examples.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		54AABF2E24DE267000935CD8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		54AABF3024DE26A400935CD8 /* BikeStationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationView.swift; sourceTree = "<group>"; };
 		54AABF3724DF8A5C00935CD8 /* BikeMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeMapView.swift; sourceTree = "<group>"; };
@@ -175,12 +179,14 @@
 			path = StationInfo;
 			sourceTree = "<group>";
 		};
-		5446054824DCB37500B8BB19 /* Examples */ = {
+		5446054824DCB37500B8BB19 /* Tutorials */ = {
 			isa = PBXGroup;
 			children = (
-				5446054C24DCB5FE00B8BB19 /* Combine Examples.playground */,
+				5424228824E30F4E00EF420E /* Combine.playground */,
+				54044E6F24E2F9F9006647FF /* LearnSwiftUI.playground */,
+				54044E7024E2FAEF006647FF /* SwiftUI.playground */,
 			);
-			path = Examples;
+			path = Tutorials;
 			sourceTree = "<group>";
 		};
 		54AABF2D24DE265B00935CD8 /* Views */ = {
@@ -189,6 +195,7 @@
 				54044E6724E0C318006647FF /* Input */,
 				54AABF3324DE414B00935CD8 /* BikeInfoViews */,
 				54AABF2E24DE267000935CD8 /* HomeView.swift */,
+				54044E6A24E0C56C006647FF /* GikeGridView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -212,7 +219,7 @@
 				E8E7A72124C3E4DF00FE7396 /* macOS */,
 				E8E7A72B24C3E4DF00FE7396 /* Tests iOS */,
 				E8E7A73624C3E4DF00FE7396 /* Tests macOS */,
-				5446054824DCB37500B8BB19 /* Examples */,
+				5446054824DCB37500B8BB19 /* Tutorials */,
 				E8E7A71924C3E4DF00FE7396 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -292,6 +299,8 @@
 			dependencies = (
 			);
 			name = "CombineMe (iOS)";
+			packageProductDependencies = (
+			);
 			productName = "CombineMe (iOS)";
 			productReference = E8E7A71824C3E4DF00FE7396 /* CombineMe.app */;
 			productType = "com.apple.product-type.application";
@@ -383,6 +392,8 @@
 				Base,
 			);
 			mainGroup = E8E7A70B24C3E4DE00FE7396;
+			packageReferences = (
+			);
 			productRefGroup = E8E7A71924C3E4DF00FE7396 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -436,6 +447,7 @@
 			files = (
 				54AABF3124DE26A400935CD8 /* BikeStationView.swift in Sources */,
 				5446050E24D612A000B8BB19 /* SysInfoDataClass.swift in Sources */,
+				54044E6B24E0C56C006647FF /* GikeGridView.swift in Sources */,
 				54AABF3824DF8A5C00935CD8 /* BikeMapView.swift in Sources */,
 				E8E7A73C24C3E4DF00FE7396 /* ContentView.swift in Sources */,
 				E8E7A73A24C3E4DF00FE7396 /* CombineMeApp.swift in Sources */,

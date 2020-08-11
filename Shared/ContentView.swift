@@ -12,6 +12,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
                    VStack {
+                    GikeGridView()
                        NavigationLink(destination: HomeView()) {
                            Text("Home")
                        }.navigationBarTitle("Bike Home")

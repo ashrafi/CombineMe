@@ -9,6 +9,7 @@ import SwiftUI
 
 struct BikeStationView: View {
     @ObservedObject var viewModel = SharedBikeViewModel()
+    @State var isEditMode: EditMode = .inactive
     
     var body: some View {
         List(viewModel.stations) { station in
@@ -22,9 +23,13 @@ struct BikeStationView: View {
                     }
                 }
             }.navigationBarTitle("Bike Stations")
+            .navigationBarItems(trailing: EditButton())
+            .environment(\.editMode, self.$isEditMode)
+            
         }
     }
 }
+
 
 struct BikeView_Previews: PreviewProvider {
     static var previews: some View {

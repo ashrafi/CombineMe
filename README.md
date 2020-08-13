@@ -12,25 +12,24 @@ We will work in pure SwiftUI (No UIKit)
 
 *CoreData as it is not an option for XCode 12.  Apple might be building a replacement ???*
 
-
 Schedule
 --
 #### Start (9am) - End (5pm)
 
 We start with a presentation covering Why SwiftUI? / Combine Framework.
-[Slides:](https://docs.google.com/presentation/d/1dKb4akc9U4xW9_L57Gx21qNbH33SVJjdvmSaFXkCCeI/edit?usp=sharing)
+[Slides](https://docs.google.com/presentation/d/1dKb4akc9U4xW9_L57Gx21qNbH33SVJjdvmSaFXkCCeI/edit?usp=sharing)
 
 
 #### 9am - 10am - Swift 5.1 / 5.2 (Review)
-[Part 1 Slides:](https://docs.google.com/presentation/d/1dKb4akc9U4xW9_L57Gx21qNbH33SVJjdvmSaFXkCCeI/edit?usp=sharing)
+[Part 1 Slides](https://docs.google.com/presentation/d/1dKb4akc9U4xW9_L57Gx21qNbH33SVJjdvmSaFXkCCeI/edit?usp=sharing)
 * Basic language constructs
 * Methods, Functions, Closures
 * Property Wrappers
 * Swift Package Manager
 * MVVM Architecture
 
-#### 10am - 12pm - SwiftUI 2 (Tutorial)
-[Orig Crdit - SwiftUI Playground Tutorial](https://github.com/andrewcbancroft/swiftui-essentials-playgrounds)
+#### 10am - 11pm - SwiftUI 2 (Tutorial)
+[SwiftUI Playground Tutorial]
 - Views & Layouts
 - List, Forms and Containers
 - Modifiers
@@ -42,11 +41,21 @@ We start with a presentation covering Why SwiftUI? / Combine Framework.
 - XCode Design Tools / Preview
 - Data Flow with Combine Framework
 
+#### 11am - 12pm SwiftUI State Management (Tutorial)
+
+- @State
+- @Binding
+- @StateObject
+- @ObservedObject
+- @EnvironmentObject
+
+
+
 #### 12pm - 1pm
 --Lunch / Questions--
 
 #### 1pm - 2pm Combine Famework (Tutorial)
-[Part 2 Slides:](https://docs.google.com/presentation/d/1dKb4akc9U4xW9_L57Gx21qNbH33SVJjdvmSaFXkCCeI/edit?usp=sharing)
+[Part 2 Slides](https://docs.google.com/presentation/d/1dKb4akc9U4xW9_L57Gx21qNbH33SVJjdvmSaFXkCCeI/edit?usp=sharing)
 [Orig Credit Combine Playground ](https://github.com/AvdLee/CombineSwiftPlayground)
 - Publisher
 - Subject
@@ -70,7 +79,7 @@ Combine / SwiftUI Code Project
 - Questions
 - Review the day.
 
--- 
+--
 ## Resources
 
 API generator
@@ -100,7 +109,7 @@ https://app.quicktype.io
 
 ~~~
 Combine Tutorial
-- (Apple)[https://developer.apple.com/documentation/combine] 
+- (Apple)[https://developer.apple.com/documentation/combine]
 * https://www.donnywals.com/an-introduction-to-combine/ - done
 * https://www.raywenderlich.com/7864801-combine-getting-started
 * https://theswiftdev.com/the-ultimate-combine-framework-tutorial-in-swift/
@@ -109,8 +118,8 @@ Combine Tutorial
 * https://www.vadimbulavin.com/swift-combine-framework-tutorial-getting-started/
 
 SwiftUI
-* https://swiftuihub.com/swiftui-tutorials/combine/ 
-* https://www.andrewcbancroft.com/blog/ios-development/ui-work/swiftui-essentials-playgrounds/ 
+* https://swiftuihub.com/swiftui-tutorials/combine/
+* https://www.andrewcbancroft.com/blog/ios-development/ui-work/swiftui-essentials-playgrounds/
 
 
 
@@ -120,4 +129,3 @@ MVVM Arch
 https://quickbirdstudios.com/blog/swiftui-architecture-redux-mvvm/
 https://github.com/quickbirdstudios/SwiftUI-Architectures/blob/master/README/MVVM.jpeg
 ~~~
-

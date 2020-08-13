@@ -63,10 +63,10 @@
 /* Begin PBXFileReference section */
 		54044E6824E0C33E006647FF /* FormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 		54044E6A24E0C56C006647FF /* GikeGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GikeGridView.swift; sourceTree = "<group>"; };
-		54044E6F24E2F9F9006647FF /* LearnSwiftUI.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LearnSwiftUI.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		54044E7024E2FAEF006647FF /* SwiftUI.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftUI.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5424228824E30F4E00EF420E /* Combine.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Combine.playground; sourceTree = "<group>"; };
 		5429EA1324DCEFB800B7AE59 /* BikeInfoAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BikeInfoAPI.swift; sourceTree = "<group>"; };
+		5441D7B524E4358000480B67 /* StateManagment.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = StateManagment.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		544604F524D60A0600B8BB19 /* SharedBikeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedBikeViewModel.swift; sourceTree = "<group>"; };
 		5446050B24D6121500B8BB19 /* SystemInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemInfo.swift; sourceTree = "<group>"; };
 		5446050D24D612A000B8BB19 /* SysInfoDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SysInfoDataClass.swift; sourceTree = "<group>"; };
@@ -183,8 +183,8 @@
 			isa = PBXGroup;
 			children = (
 				5424228824E30F4E00EF420E /* Combine.playground */,
-				54044E6F24E2F9F9006647FF /* LearnSwiftUI.playground */,
 				54044E7024E2FAEF006647FF /* SwiftUI.playground */,
+				5441D7B524E4358000480B67 /* StateManagment.playground */,
 			);
 			path = Tutorials;
 			sourceTree = "<group>";

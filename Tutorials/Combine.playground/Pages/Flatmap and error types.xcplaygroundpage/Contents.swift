@@ -18,10 +18,21 @@ import Combine
 /*:### treat it like a data structure*/
 let mydata = [1,2,3,4,5]
 //'flatMap' is deprecated: Please use compactMap(_:) for the case where closure returns an optional value //
+//compactMap - only publish them down to the subscriber if the result is not nil
 let md = mydata.compactMap({$0 * 2})
 print("compact map \(md)")
 let num = mydata.reduce(0,{x,y in x + y})
 print(num)
+
+// combine Flatmap takes a publisher and creates a single publisher from three new publishers
+[1, 2, 3].publisher.flatMap({ int in
+  return (0..<int).publisher
+  }).sink(receiveCompletion: { _ in }, receiveValue: { value in
+    print("value: \(value)")
+  })
+
+// flatMap(maxPublishers:) will limit the number of publisher
+// .switchToLatest() -- only take the latest publisher
 
 let myd = mydata.publisher
 myd.reduce(0,{x,y in x + y}).sink( receiveValue: {data in print(data)})

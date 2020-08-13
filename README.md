@@ -55,7 +55,7 @@ We start with a presentation covering Why SwiftUI? / Combine Framework.
 --Lunch / Questions--
 
 #### 1pm - 2pm Combine Famework (Tutorial)
-[Part 2 Slides](https://docs.google.com/presentation/d/1dKb4akc9U4xW9_L57Gx21qNbH33SVJjdvmSaFXkCCeI/edit?usp=sharing)
+[Part 2 Slides](https://docs.google.com/presentation/d/1dKb4akc9U4xW9_L57Gx21qNbH33SVJjdvmSaFXkCCeI/edit#slide=id.g5e0c07467c_0_1868)
 [Orig Credit Combine Playground ](https://github.com/AvdLee/CombineSwiftPlayground)
 - Publisher
 - Subject
@@ -88,23 +88,16 @@ https://app.quicktype.io
 
 --
 
-### Playgrounds
--- Review These All --
-
 ##### SwiftUI
 * https://github.com/vlondon/awesome-swiftui
 * https://github.com/WillieWangWei/SwiftUI-Tutorials
 * https://github.com/peterfriese/SwiftUI-Combine
 * https://github.com/AvdLee/CombineSwiftPlayground
 * https://github.com/sergdort/CombineFeedback
-
 * https://github.com/AlexeyVoronov96/NewsApp-With-SwiftUI-And-Combine
 * https://github.com/heckj/swiftui-notes
-
-(Combine Magic) [https://github.com/kevinjohnason/combine-magic-swiftui]
-
+* https://github.com/kevinjohnason/combine-magic-swiftui - Combine magic
 * https://github.com/attoPascal/SwiftUI-Tutorial-Playground
-
 * https://github.com/CypherPoet/book--swiftui-by-tutorials
 
 ~~~

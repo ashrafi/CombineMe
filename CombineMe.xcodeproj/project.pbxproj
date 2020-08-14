@@ -77,6 +77,7 @@
 		5446052A24D6376300B8BB19 /* StationInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationInfo.swift; sourceTree = "<group>"; };
 		5446052B24D6376300B8BB19 /* JSONSchemaSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONSchemaSupport.swift; sourceTree = "<group>"; };
 		5446052C24D6376400B8BB19 /* StationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationType.swift; sourceTree = "<group>"; };
+		54A035CA24E6EC900066B0B7 /* SwiftLang.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftLang.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		54AABF2E24DE267000935CD8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		54AABF3024DE26A400935CD8 /* BikeStationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationView.swift; sourceTree = "<group>"; };
 		54AABF3724DF8A5C00935CD8 /* BikeMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeMapView.swift; sourceTree = "<group>"; };
@@ -182,6 +183,7 @@
 		5446054824DCB37500B8BB19 /* Tutorials */ = {
 			isa = PBXGroup;
 			children = (
+				54A035CA24E6EC900066B0B7 /* SwiftLang.playground */,
 				5424228824E30F4E00EF420E /* Combine.playground */,
 				54044E7024E2FAEF006647FF /* SwiftUI.playground */,
 				5441D7B524E4358000480B67 /* StateManagment.playground */,

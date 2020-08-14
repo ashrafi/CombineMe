@@ -23,8 +23,8 @@ We start with a presentation covering Why SwiftUI? / Combine Framework.
 #### 9am - 10am - Swift 5.1 / 5.2 (Review)
 [Part 1 Slides](https://docs.google.com/presentation/d/1dKb4akc9U4xW9_L57Gx21qNbH33SVJjdvmSaFXkCCeI/edit?usp=sharing)
 * Basic language constructs
-* Methods, Functions, Closures
-* Property Wrappers
+* Methods, Functions, Closures (escaping)
+* Property Wrappers 
 * Swift Package Manager -- https://github.com/onevcat/Kingfisher - example
 * MVVM & MVI Architecture explained
 

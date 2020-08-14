@@ -25,8 +25,8 @@ We start with a presentation covering Why SwiftUI? / Combine Framework.
 * Basic language constructs
 * Methods, Functions, Closures
 * Property Wrappers
-* Swift Package Manager
-* MVVM Architecture
+* Swift Package Manager -- https://github.com/onevcat/Kingfisher - example
+* MVVM & MVI Architecture explained
 
 #### 10am - 11pm - SwiftUI 2 (Tutorial)
 [SwiftUI Playground Tutorial]
@@ -42,27 +42,30 @@ We start with a presentation covering Why SwiftUI? / Combine Framework.
 - Data Flow with Combine Framework
 
 #### 11am - 12pm SwiftUI State Management (Tutorial)
-
 - @State
 - @Binding
 - @StateObject
 - @ObservedObject
+- @AppStorage
+- @SceneStorage
 - @EnvironmentObject
-
-
 
 #### 12pm - 1pm
 --Lunch / Questions--
-
-#### 1pm - 2pm Combine Famework (Tutorial)
+          -or-
+depending on how people feel
+##### Combine Famework (Tutorial)
 [Part 2 Slides](https://docs.google.com/presentation/d/1dKb4akc9U4xW9_L57Gx21qNbH33SVJjdvmSaFXkCCeI/edit#slide=id.g5e0c07467c_0_1868)
-[Orig Credit Combine Playground ](https://github.com/AvdLee/CombineSwiftPlayground)
 - Publisher
 - Subject
 - Operators
 - Subscriber
 - SwiftUI Property Wrappers
 - Codable / JSON
+[Orig Credit for Combine Playgrounds ](https://github.com/AvdLee/CombineSwiftPlayground)
+
+
+
 
 Combine / SwiftUI Code Project
 --

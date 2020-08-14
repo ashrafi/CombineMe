@@ -32,6 +32,12 @@ import PlaygroundSupport
  --> effectively move its storage out from our struct and into shared storage managed by SwiftUI
  
  */
+
+class DataProvider: ObservableObject {
+    @Published var currentValue = 7// All Observables start with 7 as init
+    @Published var isOn = true
+}
+
 private var provider: DataProvider = DataProvider()
 /**
  #### @State
@@ -62,6 +68,12 @@ struct StateExample: View {
             Group {
                 DataUserView1(provider1:provider)
                 DataUserView2(provider2:provider)
+            }
+            Divider()
+            Group{
+                AppStroageView()
+                //SceneStorageContentView()
+                //EnvContentView()
             }
         }
     }
@@ -94,14 +106,9 @@ struct BindingView: View {
  
  1) You want to respond to changes or updates in an ObservableObject.
  2) The view you're using @StateObject in creates the instance of the ObservableObject itself.
- 
- 
  */
 
-class DataProvider: ObservableObject {
-    @Published var currentValue = 7// All Observables start with 7 as init
-    @Published var isOn = true
-}
+
 
 struct StateDataOwnerView1: View {
     // view creates a local copy
@@ -153,13 +160,45 @@ struct DataUserView2: View {
     }
 }
 
+// saved across restarts.  Stored in user defaults
+struct AppStroageView: View {
+    @AppStorage("username") var username: String = "Anonymous"
+    
+    var body: some View {
+        VStack {
+            Text("Welcome, \(username)!")
+            
+            Button("Log in") {
+                self.username = "ash"
+            }
+        }
+    }
+}
+
+// every scene has its own storage.
+/*struct SceneStorageContentView: View {
+    @SceneStorage("text") var text = ""
+    var body: some View {
+        TextEditor(text: $text)
+    }
+}*/
 
 
 /**
  #### @EnvironmentObject property
  is used when you want to pass these objects down to the initializer of each view you create.
- */
-
+ 
+ class Order: ObservableObject {
+ @Published var item = "hi"
+ }
+ 
+ struct EnvContentView: View {
+ @EnvironmentObject var order: Order
+ 
+ var body: some View {
+ Text(order.item)
+ }
+ }*/
 
 PlaygroundPage.current
     .setLiveView(StateExample())

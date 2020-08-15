@@ -25,11 +25,11 @@ struct ContentView: View {
                     }
                     .padding(.horizontal)
                 }
-                Spacer()
+                //Spacer()
             } .background(Color.green)
             .frame(minWidth: 500, maxWidth: .infinity, minHeight: 500, maxHeight: .infinity, alignment: .topLeading)
             .background(Color.red)
-            Spacer()
+            //Spacer()
         }
     }
 }

@@ -1,6 +1,7 @@
 //: [Previous](@previous)
 import SwiftUI
 import PlaygroundSupport
+import KingfisherSwiftUI
 
 
 struct ContentView : View {
@@ -9,16 +10,25 @@ struct ContentView : View {
     
     var body: some View {
         VStack {
-            Button(action: {
-                self.isButtonVisible.toggle()
-            }) {
-                Text("Press me")
+            HStack {
+                Button(action: {
+                    self.isButtonVisible.toggle()
+                }) {
+                    Text("Press me")
+                }
+                // always try to use system images
+                Image(systemName: "star.fill")
+                    .foregroundColor(Color.purple)
             }
             
             if isButtonVisible {
-                Button(action: {}) {
-                    Text("Hidden Button")
-                }.animation(.easeInOut)
+                HStack{
+                    Image(uiImage: UIImage(named: "bike.jpg")!).resizable()
+                        .frame(width: 32.0, height: 32.0)
+                    Button(action: {/* add alert */}) {
+                        Text("Hidden Button")
+                    }.animation(.easeInOut)
+                }
             }
             
             Button(action: {
@@ -30,12 +40,16 @@ struct ContentView : View {
                 Image(systemName: "chevron.right.circle")
                     .imageScale(.large)
                     .rotationEffect(.degrees(showDetail ? 90 : 0))
-                    .scaleEffect(showDetail ? 1.5 : 1)
+                    .scaleEffect(showDetail ? 10.5 : 1)
                     .padding()
                     //.animation(.easeInOut)
                     .animation(.spring())
             }
-        }
+        }.frame(minWidth: 500,
+         maxWidth: .infinity,
+         minHeight: 500,
+         maxHeight: .infinity,
+         alignment: .topLeading)
     }
 }
 
@@ -82,8 +96,8 @@ struct ContentViewP : View {
 
 
 PlaygroundPage.current
-    .setLiveView(ContentViewP())
-    //.setLiveView(ContentView())
+    //.setLiveView(ContentViewP())
+    .setLiveView(ContentView())
 
 
 //: [Next](@next)

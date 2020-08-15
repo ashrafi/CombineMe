@@ -60,6 +60,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		54FDABE524E713A000E93CEB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		54044E6824E0C33E006647FF /* FormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 		54044E6A24E0C56C006647FF /* GikeGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GikeGridView.swift; sourceTree = "<group>"; };
@@ -295,6 +308,7 @@
 				E8E7A71424C3E4DF00FE7396 /* Sources */,
 				E8E7A71524C3E4DF00FE7396 /* Frameworks */,
 				E8E7A71624C3E4DF00FE7396 /* Resources */,
+				54FDABE524E713A000E93CEB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

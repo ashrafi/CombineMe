@@ -4,6 +4,11 @@ import Foundation
 
 var str = "Hello, playground"
 
+func crazy(extName intName:String, extName1 intName1 :String, extName2 intName2:Int) -> String{
+    return("the names \(intName) \(intName1) \(intName2)")
+}
+print(crazy(extName:"one", extName1:"two", extName2:2))
+
 func greet1(person: String, day: String) -> String {
     return "Hello \(person), today is \(day)."
 }
@@ -15,7 +20,7 @@ func greet2(_ person: String, on day: String) -> String {
 }
 print(greet2("John", on:"Wednesday"))
 
-func greet3(_ person: String,_ day: String, _ sday:String) -> String {
+func greet3(_ person: String,_ day: String,_ sday:String) -> String { // this looks like every other language
     "Hello \(person), today is \(day), or maybe \(sday)."
 }
 print(greet3("John", "Wednesday", "Sunday"))
@@ -28,7 +33,8 @@ func makeIncrementer() -> ((Int) -> Int) {
     return addOne
 }
 var increment = makeIncrementer()
-increment(7)
+print(increment(7))
+
 
 
 // The code in a closure has access to things like variables and functions that were available
@@ -78,7 +84,7 @@ testFunctionWithEscapingClosure {
     print("closure called")
 }
 
-// Swift 5.1 features
+/* Swift 5.1 features
 struct ContentViewHW: View {
     @State var showPrint:Bool // property wrapper
     var body: some View { // opaque return type
@@ -87,6 +93,6 @@ struct ContentViewHW: View {
         }
         // Omit return type of View
     }
-}
+}*/
 
 //: [Next](@next)

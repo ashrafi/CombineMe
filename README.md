@@ -21,7 +21,8 @@ We start with a presentation covering Why SwiftUI? / Combine Framework.
 
 
 #### 9am - 10am - Swift 5.1 / 5.2 (Review)
-[Part 1 Slides](https://docs.google.com/presentation/d/1dKb4akc9U4xW9_L57Gx21qNbH33SVJjdvmSaFXkCCeI/edit?usp=sharing)
+[Part 1 Slides 1 - 22](https://docs.google.com/presentation/d/1dKb4akc9U4xW9_L57Gx21qNbH33SVJjdvmSaFXkCCeI/edit?usp=sharing)
+[Swift Lang Playgrounds]
 * Basic language constructs
 * Methods, Functions, Closures (escaping)
 * Property Wrappers 
@@ -29,7 +30,8 @@ We start with a presentation covering Why SwiftUI? / Combine Framework.
 * MVVM & MVI Architecture explained
 
 #### 10am - 11pm - SwiftUI 2 (Tutorial)
-[SwiftUI Playground Tutorial]
+[Part 2 Slides 23 - 51](https://docs.google.com/presentation/d/1dKb4akc9U4xW9_L57Gx21qNbH33SVJjdvmSaFXkCCeI/edit#slide=id.g5e0c07467c_0_1823)
+[SwiftUI Playground Tutorials]
 - Views & Layouts
 - List, Forms and Containers
 - Modifiers
@@ -42,6 +44,9 @@ We start with a presentation covering Why SwiftUI? / Combine Framework.
 - Data Flow with Combine Framework
 
 #### 11am - 12pm SwiftUI State Management (Tutorial)
+[Part 3 Slides 51 - 61](https://docs.google.com/presentation/d/1dKb4akc9U4xW9_L57Gx21qNbH33SVJjdvmSaFXkCCeI/edit#slide=id.g5e0c07467c_0_1868)
+[SwiftUI State Managment Playground Tutorials]
+Cold vs Hot Stream
 - @State
 - @Binding
 - @StateObject
@@ -50,31 +55,35 @@ We start with a presentation covering Why SwiftUI? / Combine Framework.
 - @SceneStorage
 - @EnvironmentObject
 
+
 #### 12pm - 1pm
+
 --Lunch / Questions--
+
           -or-
+          
 depending on how people feel
+
+
+
 ##### Combine Famework (Tutorial)
-[Part 2 Slides](https://docs.google.com/presentation/d/1dKb4akc9U4xW9_L57Gx21qNbH33SVJjdvmSaFXkCCeI/edit#slide=id.g5e0c07467c_0_1868)
+[Part 4 Slides 61 - end](https://docs.google.com/presentation/d/1dKb4akc9U4xW9_L57Gx21qNbH33SVJjdvmSaFXkCCeI/edit#slide=id.g5e0c07467c_0_1868)
+[Combine Playground Tutorials]
 - Publisher
 - Subject
 - Operators
 - Subscriber
 - SwiftUI Property Wrappers
-- Codable / JSON
+- Codable / JSON     
+
 [Orig Credit for Combine Playgrounds ](https://github.com/AvdLee/CombineSwiftPlayground)
-
-
-
 
 Combine / SwiftUI Code Project
 --
 #### 2pm - 3pm Project Setup
-
 ` UI Bike Sharing Project `
 
 #### 3pm - 4pm Project Development
-
 ` Data Bike Sharing Project `
 
 #### 4pm - 5pm Project Wrap Up

@@ -3,5 +3,6 @@
     <pages>
         <page name='Func &amp; Closure'/>
         <page name='Class &amp; Struct'/>
+        <page name='PropertyWrapper'/>
     </pages>
 </playground>

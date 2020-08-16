@@ -20,9 +20,9 @@ let firstStepDone = DispatchSemaphore(value: 0)
 */
 print("* Demonstrating receive(on:)")
 
-let publisher = PassthroughSubject<String, Never>()
+let passThrough = PassthroughSubject<String, Never>()
 let receivingQueue = DispatchQueue(label: "receiving-queue")
-let subscription = publisher
+let subscription = passThrough
 	.receive(on: receivingQueue)
 	.sink { value in
 		print("Received value: \(value) on thread \(Thread.current)")
@@ -33,7 +33,7 @@ let subscription = publisher
 
 for string in ["One","Two","Three","Four"] {
 	DispatchQueue.global().async {
-		publisher.send(string)
+        passThrough.send(string)
 	}
 }
 

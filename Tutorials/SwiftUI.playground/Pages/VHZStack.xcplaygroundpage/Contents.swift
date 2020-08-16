@@ -26,8 +26,14 @@ struct ContentView: View {
                         .frame(width: 100, height: 100)
                 }
             }
+            .border(Color.green)
+            .frame(width: 300, height: 150)
+            .border(Color.red)
             Text("This guy need to stop biking and start coding")
-        }.frame(width: 500, height: 500)
+        }
+        .border(Color.blue)
+        .frame(width: 500, height: 500)
+        
     }
 }
 

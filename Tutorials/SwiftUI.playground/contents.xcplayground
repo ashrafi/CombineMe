@@ -8,5 +8,6 @@
         <page name='Alerts'/>
         <page name='Map'/>
         <page name='Layout Views'/>
+        <page name='Lists &amp; Forms'/>
     </pages>
 </playground>

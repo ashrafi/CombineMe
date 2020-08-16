@@ -40,11 +40,13 @@ print(increment(7))
 // The code in a closure has access to things like variables and functions that were available
 // in the scope where the closure was created, even if the closure is in a different scope when it is executed
 var numbers = [20, 19, 7, 12]
-let ans = numbers.map({ (number: Int) -> Int in
+let ans = numbers.map ({ (number: Int) -> Int in
     let result = 5 * number
     return result
 })
+let short_ans = numbers.map { $0 * 5 }
 print(ans)
+
 
 // escaping closure
 var closureArr:[()->()] = [/*empty of void->void closures*/]

@@ -14,6 +14,7 @@ struct ContentView: View {
         //GridItem(.flexible())
     ]
     
+    // New in iOS 14
     var body: some View {
         VStack(alignment: .leading) {
             HStack{

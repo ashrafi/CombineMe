@@ -54,6 +54,7 @@ fetchUserPublisher
 }
 
 fetchUserPublisher.send(0)
+fetchUserPublisher.send(2)
 fetchUserPublisher.send(5)
 
 //: [Next](@next)

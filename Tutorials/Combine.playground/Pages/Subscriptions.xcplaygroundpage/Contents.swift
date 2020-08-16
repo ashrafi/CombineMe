@@ -28,6 +28,7 @@ subject.handleEvents(receiveSubscription: { (subscription) in
     }, receiveCancel: {
         print("A subscription cancelled")
     })
+    //.print("event -->")
     .replaceError(with: "Failure")
     .sink { (value) in
         print("Subscriber received value: \(value)")

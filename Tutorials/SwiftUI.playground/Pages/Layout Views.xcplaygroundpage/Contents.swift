@@ -32,7 +32,6 @@ struct ContentView2: View {
         Text("Hello, world!")
             .background(Color.red)
             .position(x: 100, y: 100)
-             // whole place red
         }.frame(minWidth: 500,
                 maxWidth: .infinity,
                 minHeight: 500,
@@ -89,7 +88,7 @@ struct ContentView5: View {
 
 PlaygroundPage.current
     //.setLiveView(ContentViewP())
-    .setLiveView(ContentView4())
+    .setLiveView(ContentView5())
 
 
 /**

@@ -49,9 +49,6 @@ Using a `CurrentValueSubject` to hold and relay the latest value to new subscrib
 
 // Hot Stream we see sub 2
 let variable = CurrentValueSubject<String, Never>("")
-// Cold Stream do not see the sub 2
-//let variable = PassthroughSubject<String, Never>()
-
 
 print("~~~~~ Start cold stream showing only the last value ~~~~~")
 for index in 1...100 {
@@ -63,4 +60,17 @@ let subscription2 = variable.sink { value in
 }
 
 variable.send("More text")
+
+/*
+ // Cold Stream do not see the sub 3
+ let pv = PassthroughSubject<String, Never>()
+ print("~~~~~ Start cold stream showing only the last value ~~~~~")
+ let subscription3 = pv.sink { value in
+     print("subscription3 received value: \(value)")
+ }
+ for index in 1...100 {
+     pv.send("Initial text \(index)")
+ }
+ */
+
 //: [Next](@next)

@@ -22,7 +22,7 @@ We start with a presentation covering Why SwiftUI? / Combine Framework.
 
 #### 9am - 10am - Swift 5.1 / 5.2 (Review)
 [Part 1 Slides 1 - 22](https://docs.google.com/presentation/d/1dKb4akc9U4xW9_L57Gx21qNbH33SVJjdvmSaFXkCCeI/edit?usp=sharing)
-[Swift Lang Playgrounds]
+[Swift 5.2 Lang Playgrounds]
 * Basic language constructs
 * Methods, Functions, Closures (escaping)
 * Property Wrappers 
@@ -32,15 +32,15 @@ We start with a presentation covering Why SwiftUI? / Combine Framework.
 #### 10am - 11pm - SwiftUI 2 (Tutorial)
 [Part 2 Slides 23 - 51](https://docs.google.com/presentation/d/1dKb4akc9U4xW9_L57Gx21qNbH33SVJjdvmSaFXkCCeI/edit#slide=id.g5e0c07467c_0_1823)
 [SwiftUI Playground Tutorials]
-- Views & Layouts
-- List, Forms and Containers
+- XCode Design Tools / Preview
+- Layouts Views
 - Modifiers
 - V/H/Z Stacks
+- List, Forms and Containers
 - Animations
-- Gestures & Events (Sliders / Toggle / Picker / Stepper)
-- Views & Controls & Alers / Action Sheets
+- UserInput (Tap Gesture &  Sliders / Toggle / Picker / Stepper)
+- Alerts / Action Sheets
 - Navigation
-- XCode Design Tools / Preview
 - Data Flow with Combine Framework
 
 #### 11am - 12pm SwiftUI State Management (Tutorial)

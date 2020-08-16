@@ -4,5 +4,6 @@
         <page name='Func &amp; Closure'/>
         <page name='Class &amp; Struct'/>
         <page name='PropertyWrapper'/>
+        <page name='Swift5.2'/>
     </pages>
 </playground>

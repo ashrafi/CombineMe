@@ -32,11 +32,9 @@ struct ContentViewSlider: View {
             VStack {
                 HStack {
                     Text("\(Int(minimumValue))")
-                    // 2.
                     Slider(value: $sliderValue, in: minimumValue...maximumvalue)
                     Text("\(Int(maximumvalue))")
                 }.padding()
-                // 3.
                 Text("\(Int(sliderValue))")
             }
             Divider()
@@ -47,7 +45,9 @@ struct ContentViewSlider: View {
                 }.padding()
                 
                 if showGreeting {
-                    Text("Hello World!")
+                    Text("Hello World!").onTapGesture(count: 2) {
+                        print("Tapped!")
+                    }
                 }
             }
             Divider()

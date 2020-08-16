@@ -7,7 +7,6 @@ import UIKit
 /*:
 # Cancellation
 A subscription returns a `Cancellable` object
-
 Correct memory management using `Cancellable` makes sure you're not retaining any references.
 */
 
@@ -21,11 +20,13 @@ class MyClass {
 	}
 
 	init(subject: PassthroughSubject<Int,Never>) {
-        // /*cancellable =*/ subject.sink { value in
+        ///*cancellable =*/ subject.sink { value in
+        //var variable: Int = 0
 		cancellable = subject.sink { value in
 			// Note that we are introducing a retain cycle on `self`
 			// on purpose, by not using `weak` or `unowned`
-			self.variable += value
+            self.variable += value
+            //print(value)
 		}
 	}
 
@@ -52,7 +53,7 @@ emitNextValue(from: [1,2,3,4,5,6,7,8], after: 0.5)
 DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
 	print("Nullify object")
 	//: **TODO** uncomment the next line to see the change
-	//object?.cancellable = nil
+	//object?.cancellable = nil // set the cancellable to nil will stop the run
 	object = nil
 }
 

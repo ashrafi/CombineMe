@@ -13,10 +13,10 @@ struct ContentViewAlert: View {
             self.showingAlert = true
         }) {
             Text("Show Alert")
-                .frame(minWidth: 500, maxWidth: .infinity, minHeight: 500, maxHeight: .infinity)
                 .font(.largeTitle)
                 .foregroundColor(Color.white)
                 .background(Color.red)
+                .frame(minWidth: 500, maxWidth: .infinity, minHeight: 500, maxHeight: .infinity)
             
         }
         .alert(isPresented: $showingAlert) {

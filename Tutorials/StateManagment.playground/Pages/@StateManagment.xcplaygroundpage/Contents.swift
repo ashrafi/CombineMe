@@ -34,11 +34,11 @@ import PlaygroundSupport
  */
 
 class DataProvider: ObservableObject {
+    //var currentValue = 7 // remove publisher and updates stop
     @Published var currentValue = 7// All Observables start with 7 as init
-    @Published var isOn = true
 }
 
-private var provider: DataProvider = DataProvider()
+private var systemDataProvider: DataProvider = DataProvider()
 /**
  #### @State
  * The view itself creates (and owns) the instance you want to wrap.
@@ -53,21 +53,20 @@ struct StateExample: View {
         VStack {
             Group {
                 Text("intValue \(intValue)")
-                Button("Increment State") {
+                Button("Increment @State") {
                     intValue += 1
                 }
-                
                 BindingView(intValue: $intValue)
             }
             Divider()
             Group {
+                // creating the data in the view
                 StateDataOwnerView1()
-                StateDataOwnerView2()
             }
             Divider()
             Group {
-                DataUserView1(provider1:provider)
-                DataUserView2(provider2:provider)
+                ObservedDataUser(provider:systemDataProvider)
+                ObservedDataUser2(provider:systemDataProvider)
             }
             Divider()
             Group{
@@ -90,7 +89,7 @@ struct BindingView: View {
     
     var body: some View {
         VStack {
-            Button("Increment Binding") {
+            Button("Increment @Binding") {
                 intValue += 1
             }
         }
@@ -103,32 +102,28 @@ struct BindingView: View {
  @StateObject for any given view is initialized only once
  
  Think of StateObject and ObservedObject as the reference type equivalents to State and Binding.
- 
  1) You want to respond to changes or updates in an ObservableObject.
  2) The view you're using @StateObject in creates the instance of the ObservableObject itself.
  */
-
-
-
 struct StateDataOwnerView1: View {
     // view creates a local copy
     @StateObject private var provider: DataProvider = DataProvider()
     
     var body: some View {
         Text("provider value1: \(provider.currentValue)")
-        Button("Increment StateObj 1") {
+        Button("Increment @StateObj") {
             provider.currentValue += 1
         }
+        StateDataUserView1(provider: provider)
     }
 }
 
-struct StateDataOwnerView2: View {
+struct StateDataUserView1: View {
     // view creates a local copy
-    @StateObject private var provider: DataProvider = DataProvider()
+    @ObservedObject var provider : DataProvider /* never do = DataProvider()*/
     
     var body: some View {
-        Text("provider value2: \(provider.currentValue)")
-        Button("Increment StateObj 2") {
+        Button("Increment @ObserObj") {
             provider.currentValue += 1
         }
     }
@@ -138,24 +133,23 @@ struct StateDataOwnerView2: View {
  #### @ObservedObject property
  is used to wrap ObservableObject instances that are not created or owned by the view that's used in
  */
-struct DataUserView1: View {
-    @ObservedObject  var provider1: DataProvider /* never do = DataProvider()*/
+struct ObservedDataUser: View {
+    @ObservedObject  var provider: DataProvider
     
     var body: some View {
-        Text("provider value1: \(provider1.currentValue)")
-        Button("Increment provider 1") {
-            provider1.currentValue += 1
+        Text("provider value1: \(provider.currentValue)")
+        Button("Increment system provider") {
+            provider.currentValue += 1
         }
     }
 }
 
-struct DataUserView2: View {
-    @ObservedObject  var provider2: DataProvider
+struct ObservedDataUser2: View {
+    @ObservedObject  var provider: DataProvider
     
     var body: some View {
-        Text("provider value2: \(provider2.currentValue)")
-        Button("Increment provider 2") {
-            provider2.currentValue += 1
+        Button("Increment system provider 2") {
+            provider.currentValue += 1
         }
     }
 }

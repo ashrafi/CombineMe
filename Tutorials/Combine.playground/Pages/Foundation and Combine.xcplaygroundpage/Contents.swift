@@ -12,6 +12,10 @@ import PlaygroundSupport
  */
 
 /*:
+ Every project have CoreData with Combine
+ */
+
+/*:
  ### A URLSessionTask publisher and a JSON Decoding operator
  */
 struct DecodableExample: Decodable { }
